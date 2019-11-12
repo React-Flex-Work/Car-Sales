@@ -41,7 +41,7 @@ export const reducer = (state = initialState, action) => {
                     })
                 },
                 additionalFeatures: [...state.additionalFeatures, action.payload]
-            }
+            };
 
         default:
             return state;
